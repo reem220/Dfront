@@ -23,6 +23,7 @@ const Signup = () => {
       setIsLoading(false)
 
     } catch (error) {
+      console.log(error);
 
       setIsLoading(false)
       setError('please fill out all fields')
